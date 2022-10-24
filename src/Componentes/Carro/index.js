@@ -1,6 +1,8 @@
 import { CarroContainer } from './styles'
 
-export function Carro({ modelo, cor, ano, flex, adicionadoPor }) {
+export function Carro({ automovel }) {
+  const {modelo, cor, ano, flex, adicionadoPor} = automovel
+  
   return (
     <CarroContainer>
       <h2>{modelo}</h2>
